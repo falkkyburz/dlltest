@@ -1,6 +1,9 @@
 from ctypes import *
 
-my = CDLL("mydll.dll")
+print(windll.kernel32)
+
+#my = CDLL("mydll")
+my = CDLL("D:\\GIT\\dlltest\\mydll.dll")
 
 # Create function argument and return types
 class STRUCT_DLL(Structure):
